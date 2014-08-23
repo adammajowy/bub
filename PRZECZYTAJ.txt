@@ -1,6 +1,6 @@
 Aby wyswiet samodzielne menu nalezy dodac w layout.phtml aplikacji kod:
 
 <?php 
-//===================================
+//==============------------------------=====================
 echo $this->navigation('blog')->menu()->setPartial(array('partial/topnav.phtml', 'Blog')); 
 ?>
